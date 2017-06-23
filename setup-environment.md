@@ -1,6 +1,12 @@
 # Setting Up Your Go Environment
 
+Choose one of the following:
+- Using GVM (Go Version Manager) to manage multiple Go installations
+- Install using Homebrew (on a Mac)
+- Install from OS specific binaries
 
+
+#### Installing with GVM
   1. Install [GVM](https://github.com/moovweb/gvm)
 
   ```bash
@@ -43,9 +49,9 @@
   ```bash
   $ mkdir $HOME/go
   ```
-  
+
   then add the following lines to your `.bashrc`:
-  
+
   ```bash
   export GOPATH=$HOME/go
   export PATH=$PATH:$GOPATH/bin
